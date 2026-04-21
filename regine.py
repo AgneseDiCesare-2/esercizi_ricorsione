@@ -27,7 +27,8 @@ class Scacchiera:
                         self._ricorsione(parziale, n)
 
                         #backtracking --> molto importante (SEMPRE)
-                        parziale.pop() #tolgo l'ultimo elemento che ho
+                        parziale.pop() #tolgo l'ultimo elemento che ho --> si usa per esplorare più rami di soluzione
+                        #dopo che ho trovato una soluzione (e stampata su una riga in output), elimino l'ultimo elemento e ricomincio.
 
     #controlla se la nuova regina da inserire sia ammissibile rispetto alla soluzione parziale costruita fino'ora
 
